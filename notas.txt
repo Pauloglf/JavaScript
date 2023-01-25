@@ -1,0 +1,35 @@
+window.alert:
+envia um aviso ao usuário 
+
+window.confirm:
+envia uma pergunta com as respostas "ok" e "cancel"
+
+window.prompt:
+envia uma pergunta com a necessidade de digitar para 
+responder
+
+
+
+variaveis podem ser usadas com VAR ou LET
+
+tipos primitivos de dados para variaveis
+(no JS o tipo pode ser alterado 
+use typeof para identificar)
+number: números
+string: caractéres, as vezes inclui números
+boolean: true e false
+null
+undefined
+object
+function
+
+
+regras para identificadores:
+podem começar com letras,$ ou _
+com números não
+
+é possivel usar letras, números, símbolos e acentos
+
+não deve conter espaços
+
+não devem ser palavras reservadas (comandos do JS)
