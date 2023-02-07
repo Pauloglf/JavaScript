@@ -13,10 +13,10 @@ responder
 variaveis podem ser usadas com VAR ou LET
 
 tipos primitivos de dados para variaveis
-(no JS o tipo pode ser alterado 
+(no JS o tipo pode ser alterado
 use typeof para identificar)
 number: números
-string: caractéres, as vezes inclui números
+string: caractéres, as vezes inclui números quando incluir algum caractére
 boolean: true e false
 null
 undefined
