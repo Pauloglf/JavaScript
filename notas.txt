@@ -8,6 +8,8 @@ window.prompt:
 envia uma pergunta com a necessidade de digitar para 
 responder
 
+document.write:
+escreve a string no documento
 
 
 variaveis podem ser usadas com VAR ou LET
@@ -33,3 +35,35 @@ com números não
 não deve conter espaços
 
 não devem ser palavras reservadas (comandos do JS)
+
+
+
+ao usar identificadores se deve colocá-los fora das aspas e concatenar com + numa string
+
+
+
+para converter o tipo de uma variável string para number se usa  
+ Number.parseInt(n) para inteiros
+ Number.parseFloat(n) para reais
+ Number(n) para ambos
+
+
+para converter number para string se usa
+ String(n)
+ n.toString()
+
+
+
+
+para facilitar na hora da digitação use template string no lugar das variáveis 
+${var} para identificar a variável 
+A STRING DEVE ESTAR COBERTA POR CRASES `` DURANTE A TEMPLATE STRING
+
+algumas mudanças com o template string  
+var.length diz quantos caracteres existem 
+let.toUpperCase() todas maiúsculas
+let.toLowerCase() todas minúsculas
+
+mudanças em números
+var.toFixed(2) para fixar casas decimais
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) para converter um número para Real Brasileiro
