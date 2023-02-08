@@ -37,7 +37,6 @@ não deve conter espaços
 não devem ser palavras reservadas (comandos do JS)
 
 
-
 ao usar identificadores se deve colocá-los fora das aspas e concatenar com + numa string
 
 
@@ -67,3 +66,32 @@ let.toLowerCase() todas minúsculas
 mudanças em números
 var.toFixed(2) para fixar casas decimais
 n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) para converter um número para Real Brasileiro
+
+
+
+Tipos de Operadores:
+aritméticos:
++ soma
+- subtração
+* multiplicação
+/ divisão real
+% divisão inteira mostrando o resto
+** potência
+
+atribuição:
+simples
+var n1 = 3
+var n2 = n1 * 5
+
+auto-atribuição:
+var n = 3
+n = n + 4
+
+simplificando:
+n += 4
+funciona com qualquer operação
+
+incremento:
+n++ seria n + 1
+n-- seria n - 1
+++n ou --n mostra a resposta de imediato
