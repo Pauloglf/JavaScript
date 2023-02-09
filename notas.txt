@@ -78,20 +78,51 @@ aritméticos:
 % divisão inteira mostrando o resto
 ** potência
 
+
 atribuição:
 simples
 var n1 = 3
 var n2 = n1 * 5
 
-auto-atribuição:
+auto-atribuição;
 var n = 3
 n = n + 4
 
-simplificando:
+simplificando;
 n += 4
 funciona com qualquer operação
 
-incremento:
+incremento;
 n++ seria n + 1
 n-- seria n - 1
 ++n ou --n mostra a resposta de imediato
+
+
+relacionais:
+o resultado sempre será um valor booleano true ou false
+> maior que
+< menor que 
+>= maior ou igual a
+<= menor ou igual a
+== igual a 
+!= diferente de
+=== o tipo e valor são iguais
+!== o tipo e valor são diferentes
+
+
+lógicos:
+! negação 
+&& conjução 'e' 
+// disjunção 'ou'
+todos usam true e false
+
+
+ternário:
+? 
+:
+teste ? true :false
+
+ordem dos operadores:
+aritmético ((), **,/ *, + -)
+relacional (o que aparecer primeiro)
+lógico (!, &&, ||)
