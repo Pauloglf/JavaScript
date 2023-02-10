@@ -11,6 +11,11 @@ responder
 document.write:
 escreve a string no documento
 
+variável.innerText:
+o texto que está dentro
+
+variável.innerHTML:
+o mesmo acima com formatação
 
 variaveis podem ser usadas com VAR ou LET
 
@@ -126,3 +131,29 @@ ordem dos operadores:
 aritmético ((), **,/ *, + -)
 relacional (o que aparecer primeiro)
 lógico (!, &&, ||)
+
+
+
+DOM Document Object Model
+window: a janela do navegador em que aparece o JS
+esses são seus child
+location; a URL da página atual e anterior
+document; o documento atual(
+html e seus child: 
+head
+body
+)
+history; histórico de onde foi e vai
+
+
+
+como acessar os elementos acima
+por Marca: getElementsByTagName('tag')[o número da tag de cima para baixo a partir do 0]
+por ID: getElementsByID
+por Nome: getElementsByName
+por Classe: getElementsByClassName
+por Seletor: querySelector(); querySelectorAll()
+
+
+é possivel usar DOM para alterar variáveis
+ex: p1.style.color = blue
