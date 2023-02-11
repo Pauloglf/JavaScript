@@ -15,7 +15,7 @@ variável.innerText:
 o texto que está dentro
 
 variável.innerHTML:
-o mesmo acima com formatação
+o mesmo acima com formatação e as vezes tags
 
 variaveis podem ser usadas com VAR ou LET
 
@@ -157,3 +157,28 @@ por Seletor: querySelector(); querySelectorAll()
 
 é possivel usar DOM para alterar variáveis
 ex: p1.style.color = blue
+
+
+
+Eventos DOM
+podem ser escritos tanto em HTML quanto em JS
+em HTML se dispara com on+evento
+em JS se usa o .addEventListener()
+
+mouseenter: quando o mouse entra na área
+mousemove: quando o mouse se mover
+mousedown: ao clicar e segurar
+mouseup: ao soltar
+click: clique
+mouseout: assim que retirar o mouse da área
+
+
+Funções são linhas de códigos que são executadas após algum evento ocorrer
+um conjunto de linhas se chama bloco, ele é marcado pelo function ação(){
+
+}
+para funcionar deve ser nomeado com uma ação se não serão anônimos, dentro dos () pode ter parametros]
+
+
+
+para correção de erros basta inspecionar com o devtools e ele provavelmente apontará a linha onde está o erro 
