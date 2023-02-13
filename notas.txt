@@ -54,7 +54,7 @@ para converter o tipo de uma variável string para number se usa
  Number(n) para ambos
 
 
-para converter number para string se usa
+para converter o tipo para string se usa
  String(n)
  n.toString()
 
