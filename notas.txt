@@ -10,6 +10,8 @@ responder
 
 document.write:
 escreve a string no documento
+Node.js:console.log('')
+
 
 variável.innerText:
 o texto que está dentro
@@ -96,6 +98,7 @@ n = n + 4
 simplificando;
 n += 4
 funciona com qualquer operação
+no caso de um string será usado para concatenar
 
 incremento;
 n++ seria n + 1
@@ -177,8 +180,23 @@ Funções são linhas de códigos que são executadas após algum evento ocorrer
 um conjunto de linhas se chama bloco, ele é marcado pelo function ação(){
 
 }
-para funcionar deve ser nomeado com uma ação se não serão anônimos, dentro dos () pode ter parametros]
+para funcionar deve ser nomeado com uma ação se não serão anônimos, dentro dos () pode ter parametros
 
 
 
-para correção de erros basta inspecionar com o devtools e ele provavelmente apontará a linha onde está o erro 
+para correção de erros basta inspecionar com o devtools e ele provavelmente apontará a linha onde está o erro
+
+
+
+Tipos de Condição em JS
+condição simples:
+if(condição){
+
+}
+
+condição composta:
+if(condição){
+
+}else{
+
+} 
