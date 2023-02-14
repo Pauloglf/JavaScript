@@ -200,3 +200,47 @@ if(condição){
 }else{
 
 } 
+
+condição aninhada:
+condições compostas com outras condições dentro
+if(condição){
+
+}else if(condição){
+   } else {
+} 
+
+condição múltipla:
+serve para valores fixos
+no lugar de uma condição é uma expressão que dependendo do seu valor texta diferentes blocos
+ATENÇÃO: o comando break deve estar no fim de cada caso para que o código proxiga normalmente
+swith (expressão){
+ case valor 1:
+
+ case valor 2:
+
+ case valor 3:
+
+ default:
+
+}
+
+
+para o colocar a hora atual no código é necessário o código como o de baixo:
+var agora = new Date()
+var hora = agora.getHours()
+
+mude o get para pegar outras coisas
+dia da semana Day
+*
+0 Domimgo
+1 Segunda
+2 Terça
+3 Quarta
+4 Quinta
+5 Sexta
+6 Sábado
+*
+ano FullYear
+minutos Minutes
+mês Month
+segundo Seconds
