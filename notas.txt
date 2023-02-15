@@ -1,3 +1,5 @@
+Comandos de JS:
+
 window.alert:
 envia um aviso ao usuário 
 
@@ -11,6 +13,13 @@ responder
 document.write:
 escreve a string no documento
 Node.js:console.log('')
+
+<script></script>
+para utilizar JS dentro do HTML
+
+<script src="script.js"></script>
+usar em HTML de modo externo
+
 
 
 variável.innerText:
