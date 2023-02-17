@@ -1,16 +1,16 @@
 Comandos de JS:
 
-window.alert:
+window.alert('')
 envia um aviso ao usuário 
 
-window.confirm:
+window.confirm('')
 envia uma pergunta com as respostas "ok" e "cancel"
 
-window.prompt:
+window.prompt('')
 envia uma pergunta com a necessidade de digitar para 
 responder
 
-document.write:
+document.write('')
 escreve a string no documento
 Node.js:console.log('')
 
@@ -20,13 +20,22 @@ para utilizar JS dentro do HTML
 <script src="script.js"></script>
 usar em HTML de modo externo
 
+document.createElement('')
+criar elementos HTML
 
+setAttribute('atributo', 'nome')
+usado para adicionar atributos como id
 
-variável.innerText:
-o texto que está dentro
+innerText
+inserir texto
 
-variável.innerHTML:
+innerHTML
 o mesmo acima com formatação e as vezes tags
+
+appendChild()
+para inserir elementos
+
+
 
 variaveis podem ser usadas com VAR ou LET
 
@@ -235,7 +244,7 @@ swith (expressão){
 
 
 para o colocar a hora atual no código é necessário o código como o de baixo:
-var agora = new Date()
+var agora = new Date() 
 var hora = agora.getHours()
 
 mude o get para pegar outras coisas
