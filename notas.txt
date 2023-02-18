@@ -262,3 +262,18 @@ ano FullYear
 minutos Minutes
 mês Month
 segundo Seconds
+
+
+
+Repetições 
+repetição com teste no início.
+uma ação que se repete até a condição ser falsa
+while(condição) {
+
+}
+
+teste no fim.
+executa, e enquanto a condição for verdadeira for verdadeira continuará a executar
+do {
+
+}while(condição)
