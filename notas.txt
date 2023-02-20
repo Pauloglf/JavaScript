@@ -35,6 +35,11 @@ o mesmo acima com formatação e as vezes tags
 appendChild()
 para inserir elementos
 
+//comentário único
+/*
+mais de uma linha
+*/
+
 
 
 variaveis podem ser usadas com VAR ou LET
@@ -265,7 +270,7 @@ segundo Seconds
 
 
 
-Repetições 
+Repetições.
 repetição com teste no início.
 uma ação que se repete até a condição ser falsa
 while(condição) {
@@ -277,3 +282,16 @@ executa, e enquanto a condição for verdadeira for verdadeira continuará a exe
 do {
 
 }while(condição)
+
+variável de controle.
+o inicio é uma var que será usada na repetição
+for(inicio ; teste; incr){
+
+}
+
+
+
+Depuração.
+use para ver o passo a passo do programa
+
+break points|pontos de parada
