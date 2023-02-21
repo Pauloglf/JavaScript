@@ -285,7 +285,7 @@ do {
 
 variável de controle.
 o inicio é uma var que será usada na repetição
-for(inicio ; teste; incr){
+for(inicio ; teste ; incr){
 
 }
 
