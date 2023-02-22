@@ -43,6 +43,7 @@ mais de uma linha
 
 
 variaveis podem ser usadas com VAR ou LET
+LET se usado a variável deixará de existir quando fora do bloco 
 
 tipos primitivos de dados para variaveis
 (no JS o tipo pode ser alterado
@@ -70,7 +71,6 @@ não devem ser palavras reservadas (comandos do JS)
 ao usar identificadores se deve colocá-los fora das aspas e concatenar com + numa string
 
 
-
 para converter o tipo de uma variável string para number se usa  
  Number.parseInt(n) para inteiros
  Number.parseFloat(n) para reais
@@ -81,6 +81,8 @@ para converter o tipo para string se usa
  String(n)
  n.toString()
 
+
+var.value.length a quantidade de caractéres em uma variável
 
 
 
@@ -248,6 +250,7 @@ swith (expressão){
 }
 
 
+
 para o colocar a hora atual no código é necessário o código como o de baixo:
 var agora = new Date() 
 var hora = agora.getHours()
@@ -295,3 +298,8 @@ Depuração.
 use para ver o passo a passo do programa
 
 break points|pontos de parada
+
+
+
+Para usar emojis use o código da emojipedia retire o U+ e substitua por \u{resto do código}
+SÓ FUNCIONA EM CRASES
