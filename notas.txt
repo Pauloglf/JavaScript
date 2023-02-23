@@ -42,6 +42,7 @@ mais de uma linha
 
 
 
+Variáveis
 variaveis podem ser usadas com VAR ou LET
 LET se usado a variável deixará de existir quando fora do bloco 
 
@@ -82,22 +83,24 @@ para converter o tipo para string se usa
  n.toString()
 
 
-var.value.length a quantidade de caractéres em uma variável
+algumas mudanças em variáveis  
+var.length diz quantos caracteres existem 
+let.toUpperCase() todas maiúsculas
+let.toLowerCase() todas minúsculas
+var.text o texto da variável
+var.uppendChild(let) adiciona um elemento filho
+
+mudanças em números
+var.toFixed(2) para fixar casas decimais
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) para converter um número para Real Brasileiro
+
 
 
 
 para facilitar na hora da digitação use template string no lugar das variáveis 
 ${var} para identificar a variável 
 A STRING DEVE ESTAR COBERTA POR CRASES `` DURANTE A TEMPLATE STRING
-
-algumas mudanças com o template string  
-var.length diz quantos caracteres existem 
-let.toUpperCase() todas maiúsculas
-let.toLowerCase() todas minúsculas
-
-mudanças em números
-var.toFixed(2) para fixar casas decimais
-n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) para converter um número para Real Brasileiro
+é possível fazer contas dentro de ${}
 
 
 
