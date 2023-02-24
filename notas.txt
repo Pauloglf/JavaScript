@@ -43,8 +43,28 @@ mais de uma linha
 
 
 Variáveis
-variaveis podem ser usadas com VAR ou LET
+variáveis podem ser usadas com VAR ou LET
 LET se usado a variável deixará de existir quando fora do bloco 
+
+variáveis simples só são capazes de ter um valor
+
+variáveis compostas(vetor/array) podem ter vários elementos cada elemento terá um valor e um índice/chave
+
+let num = [5, 8, 4] os espaços entre vírgulas dirão a quantidade de valores, contados a partir de 0
+para criar novos índicies coloque
+ex: num[3] = 6 
+o resultado será num[5, 8, 4, 6]
+num.push(7) também funciona pois criará uma nova chave
+
+num.length dirá o comprimento do vetor
+num.sort() deixará os valores em ordem crescente
+num.indexOf(valor) mostra a chave onde se encontra o valor
+
+existe uma repetição for especial para arrays
+EX:
+for(let pos in num) {
+	console.log(num[pos])
+}
 
 tipos primitivos de dados para variaveis
 (no JS o tipo pode ser alterado
