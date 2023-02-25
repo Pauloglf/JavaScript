@@ -44,6 +44,7 @@ mais de uma linha
 
 Variáveis
 variáveis podem ser usadas com VAR ou LET
+elas podem conter funções
 LET se usado a variável deixará de existir quando fora do bloco 
 
 variáveis simples só são capazes de ter um valor
@@ -224,11 +225,21 @@ click: clique
 mouseout: assim que retirar o mouse da área
 
 
-Funções são linhas de códigos que são executadas após algum evento ocorrer
-um conjunto de linhas se chama bloco, ele é marcado pelo function ação(){
+Funções 
+são linhas de códigos que são executadas após algum evento ocorrer ou serem chamadas
+um conjunto de linhas se chama bloco, ele é marcado por {} 
+function ação(param){
 
 }
-para funcionar deve ser nomeado com uma ação se não serão anônimos, dentro dos () pode ter parametros
+
+para funcionar deve ser nomeado com uma ação se não serão anônimos
+dentro dos () é possivel receber parâmetros que funcionam como variáveis
+parâmetros serão usados no código do bloco
+
+ação(5) realiza uma chamada e declara um parâmetro
+
+algumas funções podem retornar resultados com o:
+return res dentro do bloco que retorna a quem realizou a chamada
 
 
 
