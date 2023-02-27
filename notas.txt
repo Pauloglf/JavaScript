@@ -51,7 +51,9 @@ variáveis simples só são capazes de ter um valor
 
 variáveis compostas(vetor/array) podem ter vários elementos cada elemento terá um valor e um índice/chave
 
-let num = [5, 8, 4] os espaços entre vírgulas dirão a quantidade de valores, contados a partir de 0
+let num = [5, 8, 4] os espaços entre vírgulas dirão a quantidade de valores, contados a partir de 0. 
+-1 representa nenhum valor encontrado 
+
 para criar novos índicies coloque
 ex: num[3] = 6 
 o resultado será num[5, 8, 4, 6]
