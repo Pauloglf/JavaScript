@@ -20,19 +20,19 @@ para utilizar JS dentro do HTML
 <script src="script.js"></script>
 usar em HTML de modo externo
 
-document.createElement('')
+.document.createElement('')
 criar elementos HTML
 
-setAttribute('atributo', 'nome')
+.setAttribute('atributo', 'nome')
 usado para adicionar atributos como id
 
-innerText
+.innerText()
 inserir texto
 
-innerHTML
+.innerHTML()
 o mesmo acima com formatação e as vezes tags
 
-appendChild()
+.appendChild()
 para inserir elementos
 
 //comentário único
@@ -57,7 +57,7 @@ let num = [5, 8, 4] os espaços entre vírgulas dirão a quantidade de valores, 
 para criar novos índicies coloque
 ex: num[3] = 6 
 o resultado será num[5, 8, 4, 6]
-num.push(7) também funciona pois criará uma nova chave
+num.push(7) também funciona pois adicionará um elemento no vetor
 
 num.length dirá o comprimento do vetor
 num.sort() deixará os valores em ordem crescente
