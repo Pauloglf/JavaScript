@@ -49,7 +49,7 @@ LET se usado a variável deixará de existir quando fora do bloco
 
 variáveis simples só são capazes de ter um valor
 
-variáveis compostas(vetor/array) podem ter vários elementos cada elemento terá um valor e um índice/chave
+variáveis compostas(vetor/array) podem ter vários elementos, cada elemento terá um valor e um índice/chave, os elementos podem ser de vários tipos em um único vetor
 
 let num = [5, 8, 4] os espaços entre vírgulas dirão a quantidade de valores, contados a partir de 0. 
 -1 representa nenhum valor encontrado 
@@ -338,4 +338,20 @@ break points|pontos de parada
 
 
 Para usar emojis use o código da emojipedia retire o U+ e substitua por \u{resto do código}
-SÓ FUNCIONA EM CRASES
+SÓ FUNCIONA EM TEMPLATE STRINGS
+
+
+
+Declaração de objetos
+objetos podem, como variáveis, guardar valores, mas também guardar funções
+exemplo de objeto
+
+let amigo = {nome:'josé',sexo:'M',peso:'85.4',engordar(p){}}
+
+parecido com arrays é dividido com vírgulas.
+ao invés de ser númerado a partir de 0, os valores são marcados com nomes como se fossem "mini variávei"
+
+o último valor é uma function com  parâmetro
+
+para usar os valores 
+amigo.nome
